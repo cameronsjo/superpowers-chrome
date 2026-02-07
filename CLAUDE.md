@@ -1,5 +1,34 @@
 # Superpowers Chrome - Developer Documentation
 
+> Maintained fork of obra/superpowers-chrome by @cameronsjo.
+
+## Fork Maintenance
+
+- **Origin (push)**: `cameronsjo/superpowers-chrome`
+- **Upstream (pull)**: `obra/superpowers-chrome`
+
+### Syncing Upstream
+
+```bash
+git fetch upstream
+git merge upstream/main
+```
+
+Resolve conflicts in favor of local customizations for files you've intentionally modified. Accept upstream for everything else.
+
+### Where Customizations Live
+
+- `README.md` — re-owned header
+- `CLAUDE.md` — added fork section (this block)
+- Any skill/MCP modifications you make
+
+### What Not to Touch When Merging
+
+- `mcp/dist/index.js` — accept upstream's built bundle unless you've modified MCP source
+- Version bumps in `package.json` and `mcp/package.json` — accept upstream
+
+---
+
 This document contains comprehensive information for maintaining and releasing the superpowers-chrome MCP plugin.
 
 ## Project Structure

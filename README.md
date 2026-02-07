@@ -1,22 +1,15 @@
-# Superpowers Chrome - Claude Code Plugin
+# Superpowers Chrome
 
-Direct browser control via Chrome DevTools Protocol. Two modes available:
+Direct browser control via Chrome DevTools Protocol. Zero dependencies.
 
-1. **Skill Mode** - CLI tool for Claude Code agents (`browsing` skill)
-2. **MCP Mode** - Ultra-lightweight MCP server for any MCP client
+> Maintained fork of [obra/superpowers-chrome](https://github.com/obra/superpowers-chrome) by [@cameronsjo](https://github.com/cameronsjo).
 
-## Features
-
-- **Zero dependencies** - Built-in WebSocket, no npm install needed
-- **Idiotproof API** - Tab index syntax (`0`, `1`, `2`) instead of WebSocket URLs
-- **Platform-agnostic** - `chrome-ws start` works on macOS, Linux, Windows
-- **17 commands** covering all browser automation needs
-- **Complete documentation** with real-world examples
+Two modes: **Skill Mode** (CLI tool, 17 commands) and **MCP Mode** (ultra-lightweight MCP server, single `use_browser` tool).
 
 ## Installation
 
 ```bash
-/plugin marketplace add obra/superpowers-marketplace
+/plugin marketplace add cameronsjo/superpowers-marketplace
 /plugin install superpowers-chrome@superpowers-marketplace
 ```
 
@@ -168,3 +161,8 @@ See [mcp/README.md](mcp/README.md) for complete documentation.
 ## License
 
 MIT
+
+## Support
+
+- **Issues**: https://github.com/cameronsjo/superpowers-chrome/issues
+- **Upstream**: https://github.com/obra/superpowers-chrome
