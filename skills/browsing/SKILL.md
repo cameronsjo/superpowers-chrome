@@ -2,6 +2,10 @@
 name: browsing
 description: Use when you need direct browser control - teaches Chrome DevTools Protocol for controlling existing browser sessions, multi-tab management, form automation, and content extraction via use_browser MCP tool
 allowed-tools: mcp__chrome__use_browser
+license: MIT
+metadata:
+  author: obra
+  version: "1.0"
 ---
 
 # Browsing with Chrome Direct
